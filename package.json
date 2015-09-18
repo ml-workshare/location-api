@@ -21,6 +21,7 @@
     "jshint": "^2.8.0",
     "jshint-stylish-ex": "^0.2.0",
     "lodash": "^3.10.1",
+    "mmdb-reader": "0.0.4",
     "mocha": "^2.3.2",
     "request": "^2.62.0",
     "sinon": "^1.16.1",
