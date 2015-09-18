@@ -1,0 +1,31 @@
+{
+  "name": "location-api",
+  "description": "This service is capable to translate an IP address into a geographical location, it currently supports only country localization",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": "mteodori/location-api",
+  "main": "location-api.js",
+  "scripts": {
+    "prestart": "npm test",
+    "start": "supervisor location-api.js",
+    "lint": "jshint ./ --reporter node_modules/jshint-stylish-ex/stylish.js --config .jshintrc",
+    "pretest": "npm run lint",
+    "test": "mocha --recursive"
+  },
+  "dependencies": {
+    "async": "^1.4.2",
+    "body-parser": "^1.14.0",
+    "chai": "^3.2.0",
+    "colors": "^1.1.2",
+    "express": "^4.13.3",
+    "jshint": "^2.8.0",
+    "jshint-stylish-ex": "^0.2.0",
+    "lodash": "^3.10.1",
+    "mocha": "^2.3.2",
+    "request": "^2.62.0",
+    "sinon": "^1.16.1",
+    "sinon-chai": "^2.8.0",
+    "supertest": "^1.1.0",
+    "supervisor": "^0.8.0"
+  }
+}
