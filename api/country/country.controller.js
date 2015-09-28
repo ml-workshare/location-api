@@ -2,8 +2,8 @@
 
 // var config = require('../../config/environment/' + process.env.NODE_ENV);
 
-function CountryController() {}
+//function CountryController() {}
 
 // CountryController.prototype.MethodName = function (req, res) {};
 
-module.exports = new CountryController();
+//module.exports = new CountryController();
